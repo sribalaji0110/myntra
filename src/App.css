@@ -1,0 +1,535 @@
+.monsters {
+  display: flex;
+  width: 27%;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 1px 1px 5px 1px #00000038;
+}
+
+.overall {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.monsters h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  font-size: 23px;
+}
+
+.monsters img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.homepage_overall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.homepage_overall .homepage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+
+.homepage h4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.homepage img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 248px;
+  margin: 0px 20px;
+  object-fit: top;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.overll {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.detail_overall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21%;
+  margin: 0px 20px;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.detail_overall img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detail_overall h4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #282c3f;
+  margin: 10px 0px;
+}
+.detail_overall h6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 500;
+}
+.detail_overall .wishlist {
+  opacity: 0;
+  font-size: 0;
+}
+
+.detail_overall:hover .wishlist {
+  transition: all 1.3s;
+  opacity: 1;
+  position: absolute;
+  bottom: 87px;
+  background: #fff;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  box-shadow: 0px -2px 0px 0.5px #0000002e;
+}
+
+
+.detail_overall:hover .wishlist button {
+  display: flex;
+  flex-wrap: w;
+  flex-wrap: wrap;
+  font-size: 17px;
+  width: 93%;
+  height: 35px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  position: absolute;
+  bottom: 18px;
+  background: transparent;
+  border: 1px solid #0000002e;
+  outline: none;
+  border-radius: 4px;
+}
+.detail_overall {
+
+  position: relative;
+}
+
+span.closed {}span.closed:before {
+  position: absolute;
+  right: -7px;
+  top: -1px;
+  content: '';
+  background: #f5f4f3;
+  height: 25px;
+  width: 25px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+span.closed {
+  position: absolute;
+  right: 21px;
+  top: 31px;
+  z-index: 9;
+  color: #686c78;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px 1px #000000b3;
+}
+.bagslist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bag_one {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-bottom: 21px;
+  border: 1px solid #00000029;
+  border-radius: 8px;
+}
+
+.bag_one img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 18%;
+  border-radius: 4px;
+}
+.priced {
+  display: flex;
+  flex-wrap: wrap;
+  width: 82%;
+}
+
+.priced h4,.priced h6 {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+  font-size: 19px;
+  align-items: center;
+}
+.remove {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.remove ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-top: 1px solid #00000024;
+}
+
+.remove ul li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  border-right: 1px solid #0000001a;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 23px;
+}
+
+.list img {
+  height: 100px;
+  object-fit: cover;
+  width: auto;
+}
+.container.bag {
+  padding: 40px 0px;
+}
+.container.home {
+  margin-top: 52px;
+}
+.wishlists {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wishlists button {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: transparent;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid #00000024;
+  cursor: pointer;
+  outline: none;
+}
+.priced {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.priced s {
+    color: #94969f;
+    font-size: 16px;
+    padding: 0px 7px;
+}
+
+.priced p span {
+    color: #f16565;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.quantity {
+  display: flex;
+  flex-wrap: wrap;
+  width: 23%;
+}
+
+.quantity span {
+  width: 100%;
+  border: 1px solid #000;
+  justify-content: center;
+  display: flex;
+}
+.priced {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+ul.product {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 50%;
+  list-style-type: none;
+  margin: 0px;
+}
+
+ul.product li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 17%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.overll h4 {
+  width: 100%;
+  margin: 0px;
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.overll h4 span {
+  color: #00000087;
+  font-weight: normal;
+  padding: 0px 10px;
+}
+.shop_list ul li a span {
+  position: absolute;
+  top: 0px;
+  background: #f16565;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -15px;
+  top: -6px;
+  color: #fff;
+  font-size: 12px;
+}
+.shop_list ul li a{
+  position: relative;
+}
+.wish_overall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0000004f;
+  z-index: 9;
+  height: 100%;
+}
+
+div#root {
+  position: relative;
+}
+
+.wish_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  background: #fff;
+  margin: 0px auto;
+  position: relative;
+  margin-top: 126px;
+  padding: 44px;
+}
+
+.wish_content h5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wish_content img {
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 75px;
+}
+
+.wish_content h6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0px 20px;
+}
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sizes h6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sizes ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sizes ul li {
+  list-style-type: none;
+  filter: flex-;
+  display: flex;
+  flex-wrap: wrap;
+  width: 12%;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid #696e79;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.sizes button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 9px;
+  background: #ff3f6c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.product-overall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product_sidemenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+.product {
+  width: 100%;
+}
+.product-overall {
+  margin-top: 80px;
+}
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.side_menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+.overll_pro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.product_list h4,.product_list h5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.filter_search {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+}
+.discount {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+}
+.sidder-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.sidder-content h6 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
+
+.discount h6 {
+  width: 100%;
+}
+.detail_overall:hover .wishlist button.wish_add {
+  background: #000;
+  color:#fff;
+  font-size: 14px;
+}
